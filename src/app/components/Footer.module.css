@@ -1,0 +1,23 @@
+.footer {
+  text-align: center;
+  padding: 32px 20px;
+  background-color: white;
+  border-top: 1px solid #ddd;
+  margin-top: 60px;
+}
+
+.text {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.link {
+  color: #666;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.link:hover {
+  border-color: #666;
+}
