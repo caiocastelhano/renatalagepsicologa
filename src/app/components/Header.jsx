@@ -9,19 +9,19 @@ export default function Header() {
 
   const translations = {
     PT: {
-      name: "Renata Lage Psicóloga",
+      name: "Renata Lage Psicóloga | CRP 06/172041",
       whatsapp: "Fale comigo no WhatsApp",
     },
     EN: {
-      name: "Renata Lage Psychologist",
+      name: "Renata Lage Psychologist | CRP 06/172041",
       whatsapp: "Message me on WhatsApp",
     },
     FR: {
-      name: "Renata Lage Psychologue",
+      name: "Renata Lage Psychologue | CRP 06/172041",
       whatsapp: "Écrivez-moi sur WhatsApp",
     },
     ES: {
-      name: "Renata Lage Psicóloga",
+      name: "Renata Lage Psicóloga | CRP 06/172041",
       whatsapp: "Escríbeme por WhatsApp",
     },
   };

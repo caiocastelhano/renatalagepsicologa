@@ -50,8 +50,6 @@ export default function About() {
 
   return (
     <section className={styles.aboutSection}>
-      <h2 className={styles.name}>RENATA LAGE MARTINS ROSA – CRP 06/172041</h2>
-
       {/* Ilustração 
       <div className={styles.illustrationWrapper}>
         <Image
