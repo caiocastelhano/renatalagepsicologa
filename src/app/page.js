@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import About from "./components/About";
-import Practice from "./components/Practice";
+import ProfessionalPath from "./components/ProfessionalPath";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import styles from "./page.module.css";
@@ -10,7 +10,7 @@ export default function HomePage() {
     <>
       <Header />
       <About />
-      <Practice />
+      <ProfessionalPath />
       <Contact />
       <Footer />
     </>
