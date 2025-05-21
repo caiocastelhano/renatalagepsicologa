@@ -16,11 +16,14 @@
 .whatsappButton {
   background-color: #25d366;
   color: white;
-  padding: 12px 24px;
-  border-radius: 8px;
+  padding: 10px 16px;
+  border-radius: 6px;
   text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+  margin-left: auto;
+  margin-right: 24px;
 }
 
 .whatsappButton:hover {

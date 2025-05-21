@@ -10,28 +10,29 @@
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
+  color: #222;
 }
 
-.nav {
-  display: flex;
-  gap: 24px;
-}
-
-.link {
+.whatsappButton {
+  background-color: #25d366;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
   text-decoration: none;
-  color: #333;
   font-weight: 500;
-  transition: color 0.3s ease;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+  margin-left: auto;
+  margin-right: 24px;
 }
 
-.link:hover {
-  color: #666;
+.whatsappButton:hover {
+  background-color: #1ebe5c;
 }
 
 .langSwitch {
   display: flex;
   gap: 8px;
-  margin-left: 24px;
 }
 
 .flag {
@@ -49,5 +50,3 @@
 .active {
   opacity: 1;
 }
-
-

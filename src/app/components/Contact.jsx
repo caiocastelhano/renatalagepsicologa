@@ -20,22 +20,22 @@ export default function Contact() {
     PT: {
       title: "Entre em contato",
       paragraph: "Para agendamentos ou mais informações, envie uma mensagem pelo WhatsApp:",
-      button: "Falar com Renata Lage no WhatsApp",
+      button: "Fale comigo no WhatsApp",
     },
     EN: {
       title: "Get in Touch",
       paragraph: "To schedule an appointment or ask questions, send a message on WhatsApp:",
-      button: "Talk to Renata Lage on WhatsApp",
+      button: "Message me on WhatsApp",
     },
     FR: {
       title: "Contactez-moi",
       paragraph: "Pour prendre rendez-vous ou poser vos questions, envoyez un message sur WhatsApp :",
-      button: "Parler à Renata Lage sur WhatsApp",
+      button: "Écrivez-moi sur WhatsApp",
     },
     ES: {
       title: "Contacto",
       paragraph: "Para agendar una cita o hacer preguntas, envía un mensaje por WhatsApp:",
-      button: "Hablar con Renata Lage en WhatsApp",
+      button: "Escríbeme por WhatsApp",
     },
   };
 
