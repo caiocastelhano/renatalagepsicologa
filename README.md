@@ -11,14 +11,13 @@ Este site tem como objetivo apresentar o trabalho clínico de Renata Lage, psic�
 - [Next.js](https://nextjs.org/)
 - React
 - CSS Modules
-- Context API (para troca dinâmica de idioma: português ↔ inglês)
+- Context API (para troca dinâmica de idioma: português ↔ inglês ↔ francês ↔ espanhol)
 - Hospedagem: [Vercel](https://vercel.com)
 
 ## 🌐 Funcionalidades
 
 - Layout responsivo
-- Alternância de idioma (PT/EN)
-- Navegação por âncoras
+- Alternância de idioma (PT/EN/FR/ES)
 - Footer com créditos e link para o portfólio do desenvolvedor
 
 ## 💻 Desenvolvimento
