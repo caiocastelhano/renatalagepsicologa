@@ -29,19 +29,19 @@ export default function Header() {
 
   const translations = {
     PT: {
-      name: "Renata Lage Psicóloga",
+      name: "RENATA LAGE PSICÓLOGA",
       whatsapp: "Fale comigo no WhatsApp",
     },
     EN: {
-      name: "Renata Lage Psychologist",
+      name: "RENATA LAGE PSYCHOLOGIST",
       whatsapp: "Message me on WhatsApp",
     },
     FR: {
-      name: "Renata Lage Psychologue",
+      name: "RENATA LAGE PSYCHOLOGUE",
       whatsapp: "Écrivez-moi sur WhatsApp",
     },
     ES: {
-      name: "Renata Lage Psicóloga",
+      name: "RENATA LAGE PSICÓLOGA",
       whatsapp: "Escríbeme por WhatsApp",
     },
   };
