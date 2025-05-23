@@ -20,3 +20,49 @@
 .link:hover {
   text-decoration: none;
 }
+
+.text {
+  font-size: 0.9rem;
+  margin: 0;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4px;
+  text-align: center;
+}
+
+.separator {
+  display: inline;
+}
+
+/* === TABLET (até 1024px) === */
+@media (max-width: 1024px) {
+  .footer {
+    padding: 24px 16px;
+  }
+
+  .text {
+    font-size: 0.85rem;
+  }
+}
+
+/* === MOBILE (até 768px) === */
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px 12px;
+  }
+
+  .text {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .separator {
+    display: none;
+  }
+
+  .link {
+    font-size: 0.8rem;
+  }
+}

@@ -9,19 +9,19 @@ export default function Footer() {
 
   const text = {
     PT: {
-      copyright: "Renata Lage Psicóloga | © 2025 Todos os direitos reservados | ",
+      copyright: "© 2025 Renata Lage. Todos os direitos reservados",
       developer: "Desenvolvido por Caio Castelhano",
     },
     EN: {
-      copyright: "Renata Lage Psychologist | © 2025 All rights reserved | ",
+      copyright: "© 2025 Renata Lage. All rights reserved",
       developer: "Developed by Caio Castelhano",
     },
     FR: {
-      copyright: "Renata Lage Psychologue | © 2025 Tous droits réservés | ",
+      copyright: "© 2025 Renata Lage. Tous droits réservés",
       developer: "Développé par Caio Castelhano",
     },
     ES: {
-      copyright: "Renata Lage Psicóloga | © 2025 Todos los derechos reservados | ",
+      copyright: "© 2025 Renata Lage. Todos los derechos reservados",
       developer: "Desarrollado por Caio Castelhano",
     },
   };
@@ -31,12 +31,14 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <p className={styles.text}>
-        {t.copyright}
+        <span>{t.copyright}</span>
+        <span className={styles.separator}> | </span>
         <a
           href="https://caiocastelhano.com.br"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.link}
+          aria-label="Site do desenvolvedor Caio Castelhano"
         >
           {t.developer}
         </a>
