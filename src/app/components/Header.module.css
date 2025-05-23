@@ -1,52 +1,234 @@
+/* === HEADER BASE === */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 24px 40px;
-  background-color: white;
-  border-bottom: 1px solid #ddd;
+  background: linear-gradient(to bottom, #a0e3a4, #00c688);
+  color: #006a50;
+  font-family: 'Geist', sans-serif;
+  flex-wrap: wrap;
 }
 
+/* === LOGO === */
 .logo {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
-  color: #222;
 }
 
+/* === GRUPO À DIREITA === */
+.rightGroup {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+/* === BOTÃO WHATSAPP === */
 .whatsappButton {
-  background-color: #25d366;
+  background-color: #007d60;
   color: white;
   padding: 10px 16px;
   border-radius: 6px;
   text-decoration: none;
   font-weight: 500;
-  font-size: 0.9rem;
-  transition: background-color 0.2s ease;
-  margin-left: auto;
-  margin-right: 24px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  height: 40px;
 }
 
 .whatsappButton:hover {
-  background-color: #1ebe5c;
+  background-color: #006a50;
 }
 
+.whatsappIcon {
+  display: none;
+}
+
+.whatsappIcon img {
+  width: 28px;
+  height: 28px;
+}
+
+/* === BANDEIRAS === */
 .langSwitch {
   display: flex;
   gap: 8px;
+  align-items: center;
 }
 
 .flag {
-  width: 24px;
-  height: auto;
+  width: 32px;
+  height: 24px;
+  object-fit: cover;
+  border-radius: 2px;
   cursor: pointer;
-  opacity: 0.5;
+  opacity: 0.6;
   transition: opacity 0.3s ease;
 }
 
-.flag:hover {
-  opacity: 0.8;
-}
-
+.flag:hover,
 .active {
   opacity: 1;
 }
+
+.flagIcon {
+  width: 20px;
+  height: 15px;
+  object-fit: cover;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* === GLOBO E DROPDOWN === */
+.langSwitchMobile {
+  position: relative;
+  display: none;
+}
+
+.globeButton {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.dropdown {
+  position: absolute;
+  right: 0;
+  top: 40px;
+  background-color: #007d60;
+  color: white;
+  list-style: none;
+  padding: 8px 0;
+  margin: 0;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  z-index: 10;
+}
+
+.dropdown li {
+  padding: 8px 16px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dropdown li:hover {
+  background-color: #006a50;
+}
+
+/* === TABLET === */
+@media (max-width: 1024px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 0;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+  }
+
+  .rightGroup {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .whatsappButton {
+    font-size: 0.95rem;
+    padding: 8px 14px;
+    height: 36px;
+  }
+
+  .flag {
+    width: 28px;
+    height: 20px;
+  }
+
+  .langSwitch {
+    display: flex;
+  }
+
+  .langSwitchMobile {
+    display: none;
+  }
+
+  .whatsappIcon {
+    display: none;
+  }
+}
+
+/* === MOBILE === */
+@media (max-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    min-height: 64px;
+  }
+
+  .logo {
+    font-size: 1.2rem;     
+    font-weight: 600;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    height: 28px;             
+    margin: 0;
+    padding: 0;
+  }
+
+  .rightGroup {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .whatsappButton {
+    display: none;
+  }
+
+  .whatsappIcon {
+    display: block;
+  }
+
+  .whatsappIcon img {
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+    display: block;
+    margin-bottom: 1px;
+  }
+
+  .langSwitch {
+    display: none;
+  }
+
+  .langSwitchMobile {
+    display: block;
+  }
+
+  .globeButton {
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 26px;
+    width: 26px;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    vertical-align: middle;
+  }
+}
+
+
+
