@@ -10,31 +10,35 @@ export default function Contact() {
   const phone = "5511941650407";
 
   const messages = {
-    PT: "Olá, gostaria de agendar uma consulta.",
-    EN: "Hello, I’d like to schedule an appointment.",
-    FR: "Bonjour, je voudrais prendre rendez-vous.",
-    ES: "Hola, me gustaría agendar una cita.",
+  PT: "Olá Renata, gostaria de agendar uma consulta. Podemos conversar?",
+  EN: "Hello Renata, I’d like to schedule an appointment. Can we talk?",
+  FR: "Bonjour Renata, je souhaiterais prendre rendez-vous. Pourrions-nous en parler ?",
+  ES: "Hola Renata, me gustaría agendar una cita. ¿Podemos hablar?",
   };
 
   const text = {
     PT: {
       title: "Entre em contato",
-      paragraph: "Para agendamentos ou mais informações, envie uma mensagem pelo WhatsApp:",
+      paragraph:
+        "Se você sente que é hora de conversar ou precisa de apoio psicológico, estou disponível para escuta. Escreva quando quiser.",
       button: "Fale comigo no WhatsApp",
     },
     EN: {
       title: "Get in Touch",
-      paragraph: "To schedule an appointment or ask questions, send a message on WhatsApp:",
+      paragraph:
+        "If you feel it's time to talk or you're looking for psychological support, I'm here to listen. Reach out when you're ready.",
       button: "Message me on WhatsApp",
     },
     FR: {
       title: "Contactez-moi",
-      paragraph: "Pour prendre rendez-vous ou poser vos questions, envoyez un message sur WhatsApp :",
+      paragraph:
+        "Si vous ressentez le besoin de parler ou cherchez un accompagnement psychologique, je suis là pour vous écouter. Écrivez-moi quand vous le souhaitez.",
       button: "Écrivez-moi sur WhatsApp",
     },
     ES: {
       title: "Contacto",
-      paragraph: "Para agendar una cita o hacer preguntas, envía un mensaje por WhatsApp:",
+      paragraph:
+        "Si sentís que es momento de hablar o buscás apoyo psicológico, estoy disponible para escucharte. Escribime cuando quieras.",
       button: "Escríbeme por WhatsApp",
     },
   };
@@ -45,13 +49,15 @@ export default function Contact() {
   return (
     <section className={styles.contactSection}>
       <h2 className={styles.title}>{t.title}</h2>
+
       <p className={styles.text}>{t.paragraph}</p>
+
       <a
         href={whatsappURL}
         target="_blank"
         rel="noopener noreferrer"
         className={styles.whatsappButton}
-        aria-label={t.button}
+        title={messages[language]}
       >
         {t.button}
       </a>
