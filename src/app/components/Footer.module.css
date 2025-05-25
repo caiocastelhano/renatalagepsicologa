@@ -2,7 +2,7 @@
   background-color: #00c688;
   padding: 20px;
   text-align: center;
-  color: white;
+  color: #006a50;
   font-family: 'Geist', sans-serif;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .link {
-  color: white;
+  color: #006a50;
   text-decoration: underline;
   font-weight: 500;
 }
