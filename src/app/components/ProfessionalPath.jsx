@@ -9,6 +9,7 @@ export default function ProfessionalPath() {
 
   const content = {
     PT: {
+      sectionTitle: "Trajetória profissional",
       educationTitle: "Formação",
       education: [
         "FUMEC, Belo Horizonte (2013-2018): formação superior em Psicologia",
@@ -33,6 +34,7 @@ export default function ProfessionalPath() {
     },
 
     EN: {
+      sectionTitle: "Professional Path",
       educationTitle: "Education",
       education: [
         "FUMEC, Belo Horizonte (2013-2018): Bachelor's degree in Psychology",
@@ -57,6 +59,7 @@ export default function ProfessionalPath() {
     },
 
     FR: {
+      sectionTitle: "Parcours professionnel",
       educationTitle: "Formation",
       education: [
         "FUMEC, Belo Horizonte (2013-2018) : Licence en Psychologie",
@@ -81,6 +84,7 @@ export default function ProfessionalPath() {
     },
 
     ES: {
+      sectionTitle: "Trayectoria profesional",
       educationTitle: "Formación",
       education: [
         "FUMEC, Belo Horizonte (2013-2018): Título universitario en Psicología",
@@ -109,33 +113,44 @@ export default function ProfessionalPath() {
 
   return (
     <section className={styles.section}>
+      <div className={styles.contentWrapper}>
+        {/* Título acessível e semântico */}
+        <h2 className={styles.visuallyHidden}>{section.sectionTitle}</h2>
 
-      <div className={styles.block}>
-        <h3 className={styles.subtitle}>{section.educationTitle}</h3>
-        <ul className={styles.list}>
-          {section.education.map((item, i) => (
-            <li key={`edu-${i}`}>{item}</li>
-          ))}
-        </ul>
+        <div className={styles.block}>
+          <h3 className={styles.subtitle}>{section.educationTitle}</h3>
+          <ul className={styles.list}>
+            {section.education.map((item, i) => (
+              <li key={`edu-${i}`}>{item}</li>
+            ))}
+          </ul>
+        </div>
+
+        <div className={styles.block}>
+          <h3 className={styles.subtitle}>{section.experienceTitle}</h3>
+          <ul className={styles.list}>
+            {section.experience.map((item, i) => (
+              <li key={`exp-${i}`}>{item}</li>
+            ))}
+          </ul>
+        </div>
+
+        <div className={styles.block}>
+          <h3 className={styles.subtitle}>{section.practiceTitle}</h3>
+          <ul className={styles.list}>
+            {section.practice.map((item, i) => (
+              <li key={`prac-${i}`}>{item}</li>
+            ))}
+          </ul>
+        </div>
       </div>
 
-      <div className={styles.block}>
-        <h3 className={styles.subtitle}>{section.experienceTitle}</h3>
-        <ul className={styles.list}>
-          {section.experience.map((item, i) => (
-            <li key={`exp-${i}`}>{item}</li>
-          ))}
-        </ul>
-      </div>
-
-      <div className={styles.block}>
-        <h3 className={styles.subtitle}>{section.practiceTitle}</h3>
-        <ul className={styles.list}>
-          {section.practice.map((item, i) => (
-            <li key={`prac-${i}`}>{item}</li>
-          ))}
-        </ul>
-      </div>
+      <img
+        src="/images/cerebro.png"
+        alt=""
+        aria-hidden="true"
+        className={styles.cerebroBackground}
+      />
     </section>
   );
 }
