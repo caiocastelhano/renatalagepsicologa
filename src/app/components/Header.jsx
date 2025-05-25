@@ -66,7 +66,15 @@ export default function Header() {
 
   return (
     <header className={styles.header}>
-      <h1 className={styles.logo}>{t.name}</h1>
+      <div className={styles.logoGroup}>
+        <h1 className={styles.logo}>{t.name}</h1>
+        <img
+          src="/images/cerebro.png"
+          alt=""
+          aria-hidden="true"
+          className={styles.cerebroBackground}
+        />
+      </div>
 
       <div className={styles.rightGroup}>
         {/* Botão do WhatsApp (desktop) */}

@@ -114,7 +114,7 @@ export default function ProfessionalPath() {
   return (
     <section className={styles.section}>
       <div className={styles.contentWrapper}>
-        {/* Título acessível e semântico */}
+        
         <h2 className={styles.visuallyHidden}>{section.sectionTitle}</h2>
 
         <div className={styles.block}>

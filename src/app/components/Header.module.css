@@ -10,13 +10,26 @@
   flex-wrap: wrap;
 }
 
-/* === LOGO === */
+/* === LOGO + CÉREBRO === */
 .logo {
   font-size: 2rem;
   font-weight: bold;
   font-family: var(--font-bebas), sans-serif;
   letter-spacing: 0.5px;
   text-transform: uppercase;
+}
+
+.logoGroup {
+  display: flex;
+  align-items: center;
+}
+
+.cerebroBackground {
+  height: 40px;
+  width: auto;
+  margin-left: 12px;
+  object-fit: contain;
+  opacity: 0.85;
 }
 
 /* === GRUPO À DIREITA === */
