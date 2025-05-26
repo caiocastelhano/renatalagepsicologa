@@ -11,41 +11,41 @@ export default function Hero() {
     PT: {
         title: "Atendimento psicológico online",
         lines: [
-        "Um espaço para falar, escutar e sustentar o silêncio.",
-        "No tempo de cada um, com escuta atenta e sem pressa.",
-        "Sessões online para adolescentes e adultos.",
-        "Quando a palavra encontra lugar, novos caminhos se abrem.",
-        "Disponível em português, inglês, francês e espanhol."
+        "Um espaço para falar, silenciar e ser ouvido.",
+        "No tempo de cada um, com escuta cuidadosa e sem pressa.",
+        "Sessões para adolescentes e adultos.",
+        "Disponível em português, inglês, francês e espanhol.",
+        "Quando a palavra encontra lugar, novos caminhos se abrem."
         ]
     },
     EN: {
         title: "Online psychological support",
         lines: [
-        "A space for speaking, listening, and even silence.",
-        "At your own pace, with attentive and unhurried listening.",
-        "Online sessions for teens and adults.",
-        "When words find space, new paths begin to unfold.",
-        "Available in Portuguese, English, French and Spanish."
+        "A space to speak, be silent, and be heard.",
+        "At your own pace, with careful and unhurried listening.",
+        "Sessions for teens and adults.",
+        "Available in Portuguese, English, French and Spanish.",
+        "When words find space, new paths begin to unfold."
         ]
     },
     FR: {
         title: "Accompagnement psychologique en ligne",
         lines: [
-        "Un espace pour dire, écouter et accueillir le silence.",
+        "Un espace pour parler, se taire et être écouté.",
         "Au rythme de chacun, dans une écoute attentive et sans hâte.",
-        "Séances en ligne pour adolescents et adultes.",
-        "Quand la parole trouve sa place, des chemins s'ouvrent.",
-        "Disponible en portugais, anglais, français et espagnol."
+        "Séances pour adolescents et adultes.",
+        "Disponible en portugais, anglais, français et espagnol.",
+        "Quand la parole trouve sa place, des chemins s'ouvrent."
         ]
     },
     ES: {
         title: "Atención psicológica en línea",
         lines: [
-        "Un espacio para hablar, escuchar y también para el silencio.",
-        "A tu ritmo, con una escucha atenta y sin prisa.",
-        "Sesiones online para adolescentes y adultos.",
-        "Cuando la palabra encuentra lugar, se abren nuevos caminos.",
-        "Disponible en portugués, inglés, francés y español."
+        "Un espacio para hablar, guardar silencio y ser escuchado.",
+        "A tu ritmo, con una escucha cuidadosa y sin prisa.",
+        "Sesiones para adolescentes y adultos.",
+        "Disponible en portugués, inglés, francés y español.",
+        "Cuando la palabra encuentra lugar, se abren nuevos caminos."
         ]
     }
   };

@@ -1,7 +1,7 @@
 /* === BASE === */
 .professionalSection {
   position: relative;
-  background: linear-gradient(to bottom, #a0e3a4, #00c688);
+  background: linear-gradient(to bottom, #00c688, #a0e3a4 );
   padding: 64px 20px;
   width: 100%;
   min-height: 500px;
