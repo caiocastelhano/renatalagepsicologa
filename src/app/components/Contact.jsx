@@ -48,19 +48,22 @@ export default function Contact() {
 
   return (
     <section className={styles.contactSection}>
-      <h2 className={styles.title}>{t.title}</h2>
+      <div className={styles.card}>
+        <div className={styles.icon}>💬</div>
 
-      <p className={styles.text}>{t.paragraph}</p>
+        <h2 className={styles.title}>{t.title}</h2>
+        <p className={styles.text}>{t.paragraph}</p>
 
-      <a
-        href={whatsappURL}
-        target="_blank"
-        rel="noopener noreferrer"
-        className={styles.whatsappButton}
-        title={messages[language]}
-      >
-        {t.button}
-      </a>
+        <a
+          href={whatsappURL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.whatsappButton}
+          title={messages[language]}
+        >
+          {t.button}
+        </a>
+      </div>
     </section>
   );
 }
