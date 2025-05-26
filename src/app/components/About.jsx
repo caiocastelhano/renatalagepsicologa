@@ -11,38 +11,70 @@ export default function About() {
  const text = {
   PT: {
     paragraphs: [
-      "Olá, meu nome é Renata Lage (CRP 06/172041), sou psicóloga formada pela FUMEC, em Belo Horizonte, com experiência clínica desde 2018. Minha escuta é orientada pela psicanálise, abordagem com a qual trabalho no acompanhamento de adultos e adolescentes.",
-      "Durante minha formação, estagiei no CERSAM Nordeste e na clínica escola da FUMEC, onde tive supervisão em atendimentos psicanalíticos. Em 2018, participei de um curso de extensão na UFMG sobre conceitos fundamentais da teoria psicanalítica. No ano seguinte, iniciei minha pós-graduação em Semiótica Psicanalítica - Clínica da Cultura, pela PUC-SP, concluída em 2020.",
-      "Atuei em diferentes clínicas, como a Psicolumen e a Desenvolviver, além de manter atendimentos particulares presenciais e online ao longo desses anos. Atualmente, realizo atendimentos online.",
-      "Em minha prática, busco oferecer um espaço de escuta acolhedora e ética, onde seja possível elaborar medos, angústias e conflitos, compreender os modos de se relacionar com o mundo e construir, com o tempo, novas formas de estar na vida.",
-    ],
+      <>
+        Olá, meu nome é <strong>Renata Lage (CRP 06/172041)</strong>, sou psicóloga formada pela <strong>FUMEC</strong>, em <strong>Belo Horizonte</strong>, com experiência clínica desde <strong>2018</strong>. Minha escuta é orientada pela <strong>psicanálise</strong>, abordagem com a qual trabalho no acompanhamento de <strong>adultos</strong> e <strong>adolescentes</strong>.
+      </>,
+      <>
+        Durante minha formação, estagiei no <strong>CERSAM Nordeste</strong> e na <strong>clínica escola da FUMEC</strong>, onde tive supervisão em atendimentos psicanalíticos. Em <strong>2018</strong>, participei de um curso de extensão na <strong>UFMG</strong> sobre <strong>conceitos fundamentais da teoria psicanalítica</strong>. No ano seguinte, iniciei minha pós-graduação em <strong>Semiótica Psicanalítica - Clínica da Cultura</strong>, pela <strong>PUC-SP</strong>, concluída em <strong>2020</strong>.
+      </>,
+      <>
+        Atuei em diferentes clínicas, como a <strong>Psicolumen</strong> e a <strong>Desenvolviver</strong>, além de manter atendimentos particulares <strong>presenciais</strong> e <strong>online</strong> ao longo desses anos. Atualmente, realizo <strong>atendimentos online</strong>.
+      </>,
+      <>
+        Em minha prática, busco oferecer um <strong>espaço de escuta acolhedora e ética</strong>, onde seja possível elaborar <strong>medos</strong>, <strong>angústias</strong> e <strong>conflitos</strong>, compreender os <strong>modos de se relacionar com o mundo</strong> e construir, com o tempo, <strong>novas formas de estar na vida</strong>.
+      </>
+    ]
   },
 
   EN: {
     paragraphs: [
-      "My name is Renata Lage (CRP 06/172041), I'm a psychologist from FUMEC University in Belo Horizonte, with clinical experience since 2018. My work is based on psychoanalysis, and I provide therapy for adults and adolescents.",
-      "During my training, I interned at CERSAM Nordeste and at the FUMEC school clinic, where I was supervised in psychoanalytic cases. In 2018, I took an extension course at UFMG on fundamental psychoanalytic theory. The following year, I began my postgraduate studies in Psychoanalytic Semiotics - Culture Clinic at PUC-SP, which I completed in 2020.",
-      "I have worked in clinics such as Psicolumen and Desenvolviver, and have also maintained private practice, both in person and online. Currently, I offer online sessions.",
-      "In my practice, I aim to create a safe and ethical space for listening — where fears, anxieties, and conflicts can be processed, relationships better understood, and new ways of being in the world gradually built.",
-    ],
+      <>
+        My name is <strong>Renata Lage (CRP 06/172041)</strong>, I'm a psychologist from <strong>FUMEC University</strong> in <strong>Belo Horizonte</strong>, with clinical experience since <strong>2018</strong>. My work is based on <strong>psychoanalysis</strong>, and I provide therapy for <strong>adults</strong> and <strong>adolescents</strong>.
+      </>,
+      <>
+        During my training, I interned at <strong>CERSAM Nordeste</strong> and at the <strong>FUMEC school clinic</strong>, where I was supervised in psychoanalytic cases. In <strong>2018</strong>, I took an extension course at <strong>UFMG</strong> on <strong>fundamental psychoanalytic theory</strong>. The following year, I began my postgraduate studies in <strong>Psychoanalytic Semiotics - Culture Clinic</strong> at <strong>PUC-SP</strong>, which I completed in <strong>2020</strong>.
+      </>,
+      <>
+        I have worked in different clinics, such as <strong>Psicolumen</strong> and <strong>Desenvolviver</strong>, and have also maintained <strong>private practice</strong>, both <strong>in person</strong> and <strong>online</strong>. Currently, I offer <strong>online sessions</strong>.
+      </>,
+      <>
+        In my practice, I aim to create a <strong>safe and ethical space for listening</strong> — where <strong>fears</strong>, <strong>anxieties</strong>, and <strong>conflicts</strong> can be processed, relationships better understood, and <strong>new ways of being in the world</strong> gradually built.
+      </>
+    ]
   },
 
   FR: {
     paragraphs: [
-      "Je m'appelle Renata Lage (CRP 06/172041), je suis psychologue diplômée de l'université FUMEC à Belo Horizonte, avec une expérience clinique depuis 2018. Ma pratique est orientée par la psychanalyse, auprès d'adultes et d'adolescent·es.",
-      "Pendant ma formation, j'ai effectué des stages au CERSAM Nordeste et à la clinique universitaire de la FUMEC, où j'ai bénéficié d'une supervision en clinique psychanalytique. En 2018, j'ai suivi un cours d'extension à l'UFMG sur les concepts fondamentaux de la théorie psychanalytique. L'année suivante, j'ai commencé un diplôme de spécialisation en Sémiotique Psychanalytique - Clinique de la Culture à la PUC-SP, terminé en 2020.",
-      "J'ai travaillé dans différentes cliniques, comme Psicolumen et Desenvolviver, en plus de suivre des patient·es en cabinet privé, en présentiel et en ligne. Actuellement, je propose des consultations en ligne.",
-      "Dans ma pratique, je cherche à offrir un espace d'écoute éthique et accueillant, où il soit possible d'élaborer peurs, angoisses et conflits, de mieux comprendre sa manière de se relier au monde, et de construire, petit à petit, de nouvelles formes d'existence.",
-    ],
+      <>
+        Je m'appelle <strong>Renata Lage (CRP 06/172041)</strong>, je suis psychologue diplômée de l'<strong>université FUMEC</strong> à <strong>Belo Horizonte</strong>, avec une expérience clinique depuis <strong>2018</strong>. Ma pratique est orientée par la <strong>psychanalyse</strong>, auprès d'<strong>adultes</strong> et d'<strong>adolescent·es</strong>.
+      </>,
+      <>
+        Pendant ma formation, j'ai effectué des stages au <strong>CERSAM Nordeste</strong> et à la <strong>clinique universitaire de la FUMEC</strong>, où j'ai bénéficié d'une supervision en clinique psychanalytique. En <strong>2018</strong>, j'ai suivi un cours d'extension à l'<strong>UFMG</strong> sur les <strong>concepts fondamentaux de la théorie psychanalytique</strong>. L'année suivante, j'ai commencé un diplôme de spécialisation en <strong>Sémiotique Psychanalytique - Clinique de la Culture</strong> à la <strong>PUC-SP</strong>, terminé en <strong>2020</strong>.
+      </>,
+      <>
+        J'ai travaillé dans différentes cliniques, comme <strong>Psicolumen</strong> et <strong>Desenvolviver</strong>, en plus de suivre des patient·es en <strong>cabinet privé</strong>, en <strong>présentiel</strong> et en <strong>ligne</strong>. Actuellement, je propose des <strong>consultations en ligne</strong>.
+      </>,
+      <>
+        Dans ma pratique, je cherche à offrir un <strong>espace d'écoute éthique et accueillant</strong>, où il soit possible d'élaborer <strong>peurs</strong>, <strong>angoisses</strong> et <strong>conflits</strong>, de mieux comprendre sa manière de se relier au monde, et de construire, petit à petit, <strong>de nouvelles formes d'existence</strong>.
+      </>
+    ]
   },
 
   ES: {
     paragraphs: [
-      "Mi nombre es Renata Lage (CRP 06/172041), soy psicóloga graduada de la universidad FUMEC en Belo Horizonte, con experiencia clínica desde 2018. Mi trabajo se basa en el psicoanálisis, acompañando a adultos y adolescentes.",
-      "Durante mi formación, realicé prácticas en el CERSAM Nordeste y en la clínica escuela de FUMEC, con supervisión en atención clínica psicoanalítica. En 2018, participé en un curso de extensión de la UFMG sobre conceptos fundamentales de la teoría psicoanalítica. Al año siguiente, comencé una especialización en Semiótica Psicoanalítica - Clínica de la Cultura en la PUC-SP, que finalicé en 2020.",
-      "Trabajé en clínicas como Psicolumen y Desenvolviver, además de mantener consultas particulares tanto presenciales como en línea. Actualmente, realizo exclusivamente atención en línea.",
-      "En mi práctica, busco ofrecer un espacio de escucha acogedor y ético, donde sea posible elaborar miedos, angustias y conflictos, comprender las formas de relacionarse con el mundo y construir, con el tiempo, nuevas formas de habitar la vida.",
-    ],
+      <>
+        Mi nombre es <strong>Renata Lage (CRP 06/172041)</strong>, soy psicóloga graduada de la <strong>universidad FUMEC</strong> en <strong>Belo Horizonte</strong>, con experiencia clínica desde <strong>2018</strong>. Mi trabajo se basa en el <strong>psicoanálisis</strong>, acompañando a <strong>adultos</strong> y <strong>adolescentes</strong>.
+      </>,
+      <>
+        Durante mi formación, realicé prácticas en el <strong>CERSAM Nordeste</strong> y en la <strong>clínica escuela de FUMEC</strong>, con supervisión en atención clínica psicoanalítica. En <strong>2018</strong>, participé en un curso de extensión de la <strong>UFMG</strong> sobre <strong>conceptos fundamentales de la teoría psicoanalítica</strong>. Al año siguiente, comencé una especialización en <strong>Semiótica Psicoanalítica - Clínica de la Cultura</strong> en la <strong>PUC-SP</strong>, que finalicé en <strong>2020</strong>.
+      </>,
+      <>
+        Trabajé en diferentes clínicas, como <strong>Psicolumen</strong> y <strong>Desenvolviver</strong>, además de mantener <strong>consultas particulares</strong> tanto <strong>presenciales</strong> como <strong>en línea</strong>. Actualmente, realizo exclusivamente <strong>atención en línea</strong>.
+      </>,
+      <>
+        En mi práctica, busco ofrecer un <strong>espacio de escucha acogedor y ético</strong>, donde sea posible elaborar <strong>miedos</strong>, <strong>angustias</strong> y <strong>conflictos</strong>, comprender <strong>las formas de relacionarse con el mundo</strong> y construir, con el tiempo, <strong>nuevas formas de habitar la vida</strong>.
+      </>
+    ]
   },
 };
 
@@ -50,17 +82,17 @@ export default function About() {
 
   return (
     <section className={styles.aboutSection}>
-      <div className={styles.content}>
-        <div className={styles.photoWrapper}>
-          <Image
-            src="/images/renatalage.jpg"
-            alt="Foto profissional de Renata Lage"
-            width={220}
-            height={220}
-            className={styles.photo}
-          />
-        </div>
-
+      <h2 className={styles.visuallyHidden}>Sobre Renata Lage</h2>
+      <div className={styles.photoBlock}>
+        <Image
+          src="/images/renata3.jpeg"
+          alt="Foto profissional de Renata Lage"
+          fill
+          priority
+          className={styles.photo}
+        />
+      </div>
+      <div className={styles.textBlock}>
         {t.paragraphs.map((p, i) => (
           <p key={i} className={styles.paragraph}>{p}</p>
         ))}
