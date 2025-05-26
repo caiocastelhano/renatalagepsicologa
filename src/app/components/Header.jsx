@@ -49,10 +49,10 @@ export default function Header() {
   const t = translations[language];
   const phone = "5511941650407";
   const message = {
-    PT: "Olá, gostaria de agendar uma consulta.",
-    EN: "Hello, I’d like to schedule an appointment.",
-    FR: "Bonjour, je voudrais prendre rendez-vous.",
-    ES: "Hola, me gustaría agendar uma cita.",
+  PT: "Olá Renata, gostaria de agendar uma consulta. Podemos conversar?",
+  EN: "Hello Renata, I’d like to schedule an appointment. Can we talk?",
+  FR: "Bonjour Renata, je souhaiterais prendre rendez-vous. Pourrions-nous en parler ?",
+  ES: "Hola Renata, me gustaría agendar una cita. ¿Podemos hablar?",
   };
 
   const whatsappURL = `https://wa.me/${phone}?text=${encodeURIComponent(
@@ -83,6 +83,7 @@ export default function Header() {
           target="_blank"
           rel="noopener noreferrer"
           className={styles.whatsappButton}
+          title={message[language]}
         >
           {t.whatsapp}
         </a>
@@ -94,6 +95,7 @@ export default function Header() {
           rel="noopener noreferrer"
           className={styles.whatsappIcon}
           aria-label={t.whatsapp}
+          title={message[language]}
         >
           <img src="/icons/whatsapp.png" alt="WhatsApp" width="28" height="28" />
         </a>
