@@ -13,11 +13,17 @@ export default function ConceptsBar() {
   ];
 
   return (
-    <section className={styles.bar}>
+    <section className={styles.bar} aria-labelledby="concepts-heading">
+      <h2 id="concepts-heading" className={styles.visuallyHidden}>
+        Palavras que representam a prática clínica
+      </h2>
       <ul className={styles.list}>
         {concepts.map((concept, index) => (
           <li key={index}>
-            <span className={styles.symbol}>Ψ</span> {concept}
+            <span className={styles.symbol} aria-hidden="true">
+              Ψ
+            </span>
+            <span>{concept}</span>
           </li>
         ))}
       </ul>
