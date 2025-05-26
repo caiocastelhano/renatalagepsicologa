@@ -1,8 +1,11 @@
 .aboutSection {
   display: flex;
-  min-height: 100vh;
-  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+  padding: 80px 60px;
   background-color: #f5f5f5;
+  flex-wrap: wrap;
 }
 
 .visuallyHidden {
@@ -19,44 +22,44 @@
 
 /* LADO ESQUERDO (FOTO) */
 .photoBlock {
-  position: relative;
-  flex: 1;
-  min-height: 100vh;
-  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .photo {
-  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  max-width: 100%;
+  height: auto;
 }
 
 /* LADO DIREITO (TEXTO) */
 .textBlock {
+  max-width: 600px;
   flex: 1;
-  padding: 60px 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .paragraph {
-  font-size: 1.2rem;
-  line-height: 1.6;
-  margin-bottom: 25px;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 24px;
 }
 
 /* === TABLET (até 1024px) === */
 @media (max-width: 1024px) {
   .aboutSection {
     flex-direction: column;
-  }
-
-  .photoBlock {
-    min-height: 60vh;
-    width: 100%;
+    gap: 40px;
+    padding: 60px 32px;
   }
 
   .textBlock {
-    padding: 40px 32px;
+    padding: 0;
   }
 
   .paragraph {
@@ -66,13 +69,13 @@
 
 /* === MOBILE (até 768px) === */
 @media (max-width: 768px) {
-  .textBlock {
-    padding: 32px 20px;
+  .aboutSection {
+    padding: 48px 20px;
   }
 
   .paragraph {
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.6;
   }
 }
 

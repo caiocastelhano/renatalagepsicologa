@@ -1,10 +1,10 @@
 # renatalagepsicologa
 
-Site institucional da psicóloga Renata Lage, desenvolvido como uma single-page application com [Next.js](https://nextjs.org).
+Site institucional da psicóloga Renata Lage Martins Rosa, desenvolvido como uma single-page application com [Next.js](https://nextjs.org).
 
 ## 🧠 Sobre o projeto
 
-Este site tem como objetivo apresentar o trabalho clínico de Renata Lage, psicóloga com formação em psicanálise. A página reúne informações sobre sua formação, abordagem teórica e canais de contato para agendamento de consultas.
+Este site tem como objetivo apresentar o trabalho clínico de Renata Lage Martins Rosa, psicóloga com formação em psicanálise. A página reúne informações sobre sua formação, abordagem teórica e canais de contato para agendamento de consultas.
 
 ## 🚀 Tecnologias utilizadas
 
