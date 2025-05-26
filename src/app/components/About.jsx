@@ -50,18 +50,6 @@ export default function About() {
 
   return (
     <section className={styles.aboutSection}>
-      {/* Ilustração 
-      <div className={styles.illustrationWrapper}>
-        <Image
-          src="/images/illustration-psychology.png"
-          alt="Ilustração relacionada à psicologia"
-          width={150}
-          height={150}
-          className={styles.illustration}
-        />
-      </div>
-      */}
-
       <div className={styles.content}>
         <div className={styles.photoWrapper}>
           <Image

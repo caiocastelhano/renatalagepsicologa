@@ -1,13 +1,13 @@
 .footer {
-  background-color: #00c688;
+  background-color: #3a3682;
   padding: 20px;
   text-align: center;
-  color: #1f4e44;
+  color: white;
   font-family: 'Geist', sans-serif;
 }
 
 .link {
-  color: #1f4e44;
+  color: white;
   text-decoration: underline;
   font-weight: 500;
 }
