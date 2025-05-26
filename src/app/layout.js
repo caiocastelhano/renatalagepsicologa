@@ -22,15 +22,38 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Renata Lage Psicóloga",
   description: "Atendimento psicológico online para adolescentes e adultos",
+  openGraph: {
+    title: "Renata Lage Psicóloga",
+    description: "Atendimento psicológico online para adolescentes e adultos",
+    url: "https://renatalagepsicologa.com.br",
+    siteName: "Renata Lage Psicóloga",
+    images: [
+      {
+        url: "https://renatalagepsicologa.com.br/images/opengraph.png",
+        width: 1200,
+        height: 630,
+        alt: "Renata Lage Psicóloga",
+      },
+    ],
+    locale: "pt_BR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Renata Lage Psicóloga",
+    description: "Atendimento psicológico online para adolescentes e adultos",
+    images: ["https://renatalagepsicologa.com.br/images/opengraph.png"],
+  },
+  alternates: {
+    canonical: "https://renatalagepsicologa.com.br",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="pt">
       <body className={`${geistSans.variable} ${geistMono.variable} ${bebas.variable}`}>
-        <LanguageProvider>
-          {children}
-        </LanguageProvider>
+        <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>
   );
