@@ -21,10 +21,10 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Renata Lage Psicóloga",
-  description: "Atendimento psicológico online para adolescentes e adultos",
+  description: "Atendimento psicológico online para adolescentes e adultos, com escuta clínica sensível, ética e fundamentada na psicanálise. Disponível em português, inglês, francês e espanhol.",
   openGraph: {
     title: "Renata Lage Psicóloga",
-    description: "Atendimento psicológico online para adolescentes e adultos",
+    description: "Atendimento psicológico online para adolescentes e adultos, com escuta clínica sensível, ética e fundamentada na psicanálise. Disponível em português, inglês, francês e espanhol.",
     url: "https://renatalagepsicologa.com.br",
     siteName: "Renata Lage Psicóloga",
     images: [
@@ -41,7 +41,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Renata Lage Psicóloga",
-    description: "Atendimento psicológico online para adolescentes e adultos",
+    description: "Atendimento psicológico online para adolescentes e adultos, com escuta clínica sensível, ética e fundamentada na psicanálise. Disponível em português, inglês, francês e espanhol.",
     images: ["https://renatalagepsicologa.com.br/images/opengraph.png"],
   },
   alternates: {
