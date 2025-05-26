@@ -1,18 +1,18 @@
 # renatalagepsicologa
 
-Site institucional para a psicóloga Renata Lage, desenvolvido como single-page application com [Next.js](https://nextjs.org).
+Site institucional da psicóloga Renata Lage, desenvolvido como uma single-page application com [Next.js](https://nextjs.org).
 
 ## 🧠 Sobre o projeto
 
-Este site tem como objetivo apresentar o trabalho clínico de Renata Lage, psicóloga com formação em psicanálise. A página oferece informações sobre sua formação, abordagem teórica e canais de contato para agendamento de consultas.
+Este site tem como objetivo apresentar o trabalho clínico de Renata Lage, psicóloga com formação em psicanálise. A página reúne informações sobre sua formação, abordagem teórica e canais de contato para agendamento de consultas.
 
-## 🚀 Tecnologias
+## 🚀 Tecnologias utilizadas
 
 - [Next.js](https://nextjs.org/)
 - React
 - CSS Modules
 - Context API (para troca dinâmica de idioma: português ↔ inglês ↔ francês ↔ espanhol)
-- Hospedagem: [Vercel](https://vercel.com)
+- Hospedagem via [Vercel](https://vercel.com)
 
 ## 🌐 Funcionalidades
 
@@ -20,9 +20,9 @@ Este site tem como objetivo apresentar o trabalho clínico de Renata Lage, psic�
 - Alternância de idioma (PT/EN/FR/ES)
 - Footer com créditos e link para o portfólio do desenvolvedor
 
-## 💻 Desenvolvimento
+## ✅ Status do projeto
 
-Projeto em andamento.
+Projeto **finalizado** em maio de 2025.
 
 ## 👨‍💻 Desenvolvido por
 
