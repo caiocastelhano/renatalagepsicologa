@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useContext } from "react";
+import { useContext } from "react";
 import { FaWhatsapp } from "react-icons/fa";
 import { LanguageContext } from "../context/LanguageContext";
 import styles from "./WhatsAppButton.module.css";
