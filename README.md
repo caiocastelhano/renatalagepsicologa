@@ -1,29 +1,36 @@
-# renatalagepsicologa
+# 🧠 Renata Lage Psicóloga – Official Website
 
-Site institucional da psicóloga Renata Lage Martins Rosa, desenvolvido como uma single-page application com [Next.js](https://nextjs.org).
+This website presents the clinical work of **Renata Lage Martins Rosa**, a psychologist with training in psychoanalysis.  
+The page includes information about her academic background, theoretical approach, and contact channels for scheduling consultations.
 
-## 🧠 Sobre o projeto
+## 🔍 Visit
 
-Este site tem como objetivo apresentar o trabalho clínico de Renata Lage Martins Rosa, psicóloga com formação em psicanálise. A página reúne informações sobre sua formação, abordagem teórica e canais de contato para agendamento de consultas.
+🌐 [renatalagepsicologa.com.br](https://www.renatalagepsicologa.com.br)
 
-## 🚀 Tecnologias utilizadas
+## 🛠️ Technologies Used
 
-- [Next.js](https://nextjs.org/)
-- React
-- CSS Modules
-- Context API (para troca dinâmica de idioma: português ↔ inglês ↔ francês ↔ espanhol)
-- Hospedagem via [Vercel](https://vercel.com)
+- [Next.js](https://nextjs.org/)  
+- React  
+- CSS Modules  
+- Context API (for dynamic language switching: Portuguese ↔ English ↔ French ↔ Spanish)  
+- Hosting via [Vercel](https://vercel.com)
 
-## 🌐 Funcionalidades
+## 🌐 Features
 
-- Layout responsivo
-- Alternância de idioma (PT/EN/FR/ES)
-- Footer com créditos e link para o portfólio do desenvolvedor
+- Responsive layout  
+- Language switcher (PT/EN/FR/ES)  
+- Footer with credits and link to the developer’s portfolio
 
-## ✅ Status do projeto
+## 📱 Responsiveness
 
-Projeto **finalizado** em maio de 2025.
+The design is optimized for **desktop, tablet, and mobile** devices.
 
-## 👨‍💻 Desenvolvido por
+## ✅ Status
 
-[Caio Castelhano](https://caiocastelhano.com.br)
+The website is live and fully deployed. 
+Access the official site: [renatalagepsicologa.com.br](https://www.renatalagepsicologa.com.br)
+
+## 👨‍💻 Developer
+
+Developed by [Caio Castelhano](https://www.caiocastelhano.com.br/) – front-end developer based in Brazil.  
+For freelance inquiries, collaborations, or feedback, feel free to get in touch.
